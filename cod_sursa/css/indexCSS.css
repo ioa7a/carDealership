@@ -1,0 +1,159 @@
+body {
+    background-color: #6C88A2;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 0;
+}
+
+/* bara de navigatie */
+.sidebar {
+    background-color: #0e1f31;
+    height: 100%;
+    left: 0;
+    overflow-x: scroll;
+    padding-top: 16px;
+    position: fixed;
+    top: 0;
+    width: 200px;
+    z-index: 1;
+}
+
+.sidebar a {
+    color: #818181;
+    display: block;
+    font-size: 20px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar a {
+   background-color: #789bbd;
+    border: none;
+    border-radius: 2.5px;
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 15px;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+
+/* input */
+.input-group {
+    margin: 10px 10px 10px 10px;
+}
+
+.input-group label {
+    background-color: darkgray;
+    display: block;
+    margin: 3px;
+    text-align: left;
+}
+
+.input-group input[type=text] {
+    align-content: center;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 2.5px;
+    color: #0e1f31;
+    font-size: 13px;
+    height: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+
+.input-group select {
+    align-content: center;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 2.5px;
+    color: #0e1f31;
+    height: 30px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    width: 180px;
+
+}
+
+.input-group input[type=submit] {
+    align-content: center;
+    background-color: #0e1f31;
+    border: none;
+    border-radius: 2.5px;
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    margin-left: 35%;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+
+/* meniul de tip tab */
+.tab {
+    background-color: #789bbd;
+    border: 1px solid #ccc;
+    overflow: hidden;
+
+
+}
+
+.tab button {
+    background-color: #789bbd;
+    border: none;
+    border-radius: 2.5px;
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px auto;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    width: 170px;
+}
+
+.tab button:hover {
+    background-color: #80ADD8;
+}
+
+.tab button.active {
+    background-color: #6C88A2;
+}
+
+.tabcontent {
+   border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+    padding: 6px 12px;
+}
+
+.tab  table, th, td {
+    border: 1px solid #D8D8D8;
+}
+
+/* tabele */
+tr:nth-child(even) {
+  background-color: #80ADD8;
+}
+
+tr:nth-child(odd) {
+  background-color: #5B7C9B;
+}

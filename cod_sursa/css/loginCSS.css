@@ -1,0 +1,65 @@
+body {
+    background-color: #474747;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+form, .content {
+
+   
+    margin-top: 0;
+    margin-left: 425px;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px 10px 10px 10px;
+    background-color: darkgray; 
+    width: 30%;
+}
+
+.input_form {
+    left: 30px;
+    width: 50%;
+}
+
+.input-group {
+    margin: 10px 10px 10px 10px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+    background-color: darkgray;
+
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+.input-group button {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #479ced;
+    border-radius: 5px;
+    border: solid #3370A9;
+}
+
+.error {
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 2px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    right: 20px;
+}
